@@ -20,7 +20,7 @@ ADD ./000-default.conf /etc/apache2/sites-available/
 
 # Uncomment these two lines to fix "non-UTF8" chars encoding and time format problems
 ADD ./freetds.conf /etc/freetds/
-#ADD locales.conf /etc/freetds/
+ADD ./locales.conf /etc/freetds/
 
 EXPOSE 80
 EXPOSE 443
